@@ -1,0 +1,29 @@
+.dropdownContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #f0f0f0;
+}
+.dropdownContainer select {
+  width: 100%;
+  appearance: none;
+  background: transparent;
+  padding: 18px 24px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.dropdownContainer select:focus {
+  outline: none;
+}
+
+.arrowIcon {
+  position: absolute;
+  right: 20px;
+  /* transition: transform 0.1s; */
+}
+
+/* .dropdownContainer select:hover {
+ background-color: #e7e7e7;
+} */
